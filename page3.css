@@ -1,0 +1,147 @@
+.table-area {
+    padding-top: 20px;
+}
+
+.table-area .operation-area button,
+.table-area .qgg-table td button {
+    border: none;
+    background-color: #8696a7;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.table-area .operation-area button:hover,
+.table-area .qgg-table td button:hover {
+    background-color: #4d5f6a;
+}
+
+
+.table-area .table-container {
+    margin-top: 20px;
+    border: 1px solid #965454;
+    padding: 20px;
+    }
+.table-area .table-container1 {
+    margin-top: 20px;
+    border: 2px solid #965454;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height:200px;
+    
+}
+.table-area .table-container1 button{
+    border: none;
+    background-color: #8696a7;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; 
+}
+.table-area .table-container2 {
+    margin-top: 20px;
+    border: 2px solid #965454;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    left: 110%;
+    top: -220px;
+    height:200px;
+    position:relative ;
+
+}
+.table-area .search-area {
+    margin-top: 20px;
+}
+
+.table-area .search-area label {
+    color: #6b5152;
+    margin-top: 20px;
+}
+
+.table-area .search-area input,
+.pageable input {
+    padding: 20px;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+    border: 0;
+    outline-style: none;
+    background-color: #ead0d1;
+    color: #6b5152;
+    left: 100%;
+    
+}
+
+.input-group {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.input-group>i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #6b5152;
+    left: 100px;
+}
+
+.qgg-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #c6c6c6 !important;
+}
+
+.qgg-table thead tr th {
+    background-color:#ead0d1;
+    color:#6b5152;
+}
+
+.qgg-table th {
+    border-collapse: collapse;
+    border-bottom: 1px solid #c6c6c6 !important;
+    padding: 5px 9px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.qgg-table td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #c6c6c6 !important;
+    padding: 5px 9px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.qgg-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.qgg-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.table-area .pageable {
+    margin-top: 20px;
+    color: #515c6b;
+
+}
+
+.table-area .pageable button {
+    border: none;
+    background-color: #8696a7;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;   
+}
+/* 4 records in total*/
+
+.table-area .pageable button:hover {
+
+    background-color: #4d5f6a;
+
+}
